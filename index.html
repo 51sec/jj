@@ -299,7 +299,16 @@ bind(player, 'loadedmetadata', adjustVideoSize);
 <script>
 // Wrap your script logic inside a function
 function runMyScript() {
-  window.document.getElementById("haaa").parentNode.removeChild(window.document.getElementById("haaa"));
+  // Remove old overlay if it exists (resets countdown)
+  var old = document.getElementById("haaa");
+  if (old) old.parentNode.removeChild(old);
+
+  // Insert new overlay
+  var newDiv = document.createElement("div");
+  newDiv.id = "haaa";
+  newDiv.innerHTML = '<font>Please enable / Bitte aktiviere JavaScript!<br>Veuillez activer / Por favor activa el Javascript!<a href="http://sites.51sec.org">[ ? ]</a></font>';
+  document.body.appendChild(newDiv);
+	
   (function(l,m){
     function n(a){a&&haaa.nextFunction()}
     var h=l.document,p=["i","s","u"];

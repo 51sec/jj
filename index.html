@@ -8,6 +8,61 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Online JJ</title>
 
+<style>
+body {
+    background: #FFC0CB;
+    height: 100vh;
+    margin: 0;                /* remove default margin */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; 
+}
+
+.video-container {
+width: 90%; 
+max-width: 1000px; /* Maximum width of enlarged horizontal video */ 
+position: relative; 
+}
+
+#player {
+width: 90%; 
+height: 90%; 
+max-height: 85vh; /* Maximum height of enlarged video */ 
+object-fit: contain; 
+}
+.button-container { 
+display: flex; 
+justify-content: center; 
+gap: 10px; 
+margin-top: 10px; 
+position: relative; 
+} 
+.button-container button { 
+background: #7F9CCC; 
+color: #fff; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 6px; 
+font-weight: bold; 
+cursor: pointer; 
+} 
+	
+#buttons {
+display: flex; 
+justify-content: center; 
+gap: 10px; 
+margin-top: 10px; 
+position: relative; 
+}
+
+#switch,
+#next,
+    
+</style>
+
+	
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3NWLMBWBZS"></script>
 <script>
@@ -43,60 +98,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<style>
-body {
-    background: #FFC0CB;
-    height: 100vh;
-    margin: 0;                /* remove default margin */
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif; 
-}
 
-.video-container {
-width: 100%; 
-max-width: 1100px; /* Maximum width of enlarged horizontal video */ 
-position: relative; 
-}
-
-
-#player {
-width: 100%; 
-height: 100%; 
-max-height: 85vh; /* Maximum height of enlarged video */ 
-object-fit: contain; 
-}
-.button-container { 
-display: flex; 
-justify-content: center; 
-gap: 10px; 
-margin-top: 10px; 
-position: relative; 
-} 
-.button-container button { 
-background: #7F9CCC; 
-color: #fff; 
-padding: 10px 20px; 
-border: none; 
-border-radius: 6px; 
-font-weight: bold; 
-cursor: pointer; 
-} 
-	
-#buttons {
-display: flex; 
-justify-content: center; 
-gap: 10px; 
-margin-top: 10px; 
-position: relative; 
-}
-
-#switch,
-#next,
-    
-</style>
 </head>
 	
 <body>

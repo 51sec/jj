@@ -161,7 +161,7 @@ bind(player, 'loadedmetadata', adjustVideoSize);
 <style> .social-icons {
   display: flex;
   justify-content: center;
-  gap: 5px; /* space between icons */
+  gap: clamp(5px, 2vw, 25px); /* min 3px, usually 2% of viewport width, max 20px; space between icons */
   margin: 5px 0;
 }
 .social-icons img {

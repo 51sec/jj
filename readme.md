@@ -13,4 +13,8 @@
 
 线路5：http://v.nrzj.vip/video.php
 
-6: https://video.nrzj.vip/tiktok/video.php
+线路6: https://video.nrzj.vip/tiktok/video.php
+
+线路7：http://v.nrzj.vip/tiktok/video.php
+
+线路8：http://video.nrzj.vip/video.php
